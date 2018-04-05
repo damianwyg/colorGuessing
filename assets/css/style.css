@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+h1  {
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background: steelblue;
+}
+#container {
+    width: 30%;
+    margin: 20px auto;
+}
+.square {
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left;
+    background-color: pink;
+    border-radius: 30px;
+    transition: background-color 1.5s;
+}
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.selected {
+    color: white;
+    background-color: steelblue;
+}
+#pickedColorSpan {
+    display: block;
+}
+#advice {
+    display: inline-block;
+    width: 20%;
+}
